@@ -1,14 +1,5 @@
 # Discord-Bot-Training
 
-## Prerequisites
-Let's create a project in ReplIt from this Repository.
-* Step 1
-* Step 2
-
-Let's create Connect to the CodeMash chat server and claim a chat room
-* Step 1
-* Step 2
-
 ## Learning time (not in order)
 * Lesson [One](./docs/Lesson_1.md) - Python Basics
 * Lesson [Two](./docs/Lesson_2.md) - String Manipulation
