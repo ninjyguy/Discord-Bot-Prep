@@ -16,4 +16,4 @@ not_important = "This string is not important."
 very_important = "/chatbot This is very important to capture"
 # find if a substring is IN a string
 good_one = "This string is very good for you."
-bad_one = f"This {'string'} has no value at all."
+bad_one = "This string has no value at all."
