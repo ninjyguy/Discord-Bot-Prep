@@ -7,6 +7,6 @@ import python_basics
 # Running lesson #2 Basic Srting manipulation
 import string_manipulation
 # Running lesson #3 Create Basic Function
-import create_function
+# import create_function
 # Running lesson #4 Chatbot Game
 import chat_bot
