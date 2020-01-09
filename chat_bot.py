@@ -1,4 +1,13 @@
-# 1) Create a discord client class and get "Hello @mention" printed in the chat 
+# 1) Create a discord client class and get "Hello @mention" printed in the chat
+import discord
+import random
+TOKEN = "Insert your token here"
+class MyClient(discord.Client):
+  pass
+
+client = MyClient()
+#client.run(TOKEN)
+
 # 2) Read !hello command and only then reply with "Hello, @mention"
 # 3) Create game instructions response in a separate function
 # 4) Build "Rock Paper Scissors" game
