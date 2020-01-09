@@ -4,7 +4,6 @@
 # move string into a variable 
 # print variable
 # create integer, double, boolean
-# ask people for variable names
 # print each directly
 # use variables in f-string
 # print f string
