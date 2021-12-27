@@ -1,13 +1,13 @@
 # Python Basics
 ## create literal string
 ```python
-"Hello all the users"
+"Hello people"
 ```
 ## create literal multiline string
 ```python
 """This is going to be a 
 fun tutorial where you can 
-create a chate bot"""
+create a chat bot"""
 ```
 ## print literal string
 ```python
