@@ -16,9 +16,16 @@ print(f"Hello, {mention}")
 def say_hello():
   mention = "@donkeyLobster"
   print(f"Hello, {mention}")
+```
+If you run this code you will get no output. This happenes because we made a function and put variable assignment and print inside function scope. But now in order to run what is inside the function we actually need to call it.
+```python
+def say_hello():
+  mention = "@donkeyLobster"
+  print(f"Hello, {mention}")
 
 say_hello()
 ```
+
 ## make @mention a parameter to a function and pass the string literal value in the call
 ```python
 def say_hello(mention):
