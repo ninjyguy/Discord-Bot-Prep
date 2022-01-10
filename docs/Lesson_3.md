@@ -31,6 +31,14 @@ say_hello()
 def say_hello(mention):
   print(f"Hello, {mention}")
 
+say_hello("@donkeyLobster")
+```
+
+## convert literal to a variable and pass variable in
+```python
+def say_hello(mention):
+  print(f"Hello, {mention}")
+
 user = "@donkeyLobster"
 say_hello(user)
 ```
