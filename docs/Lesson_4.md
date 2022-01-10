@@ -14,7 +14,7 @@ TOKEN = "Insert your token here"
 
 # make my client exactly as discord client
 class MyClient(discord.Client):
-  pass
+    pass
 
 # create one copy of it
 client = MyClient()
@@ -29,7 +29,7 @@ TOKEN = "Insert your token here"
 class MyClient(discord.Client):
     async def on_message(self, message):
         if message.author.id == self.user.id:
-        return
+            return
 
 
 
