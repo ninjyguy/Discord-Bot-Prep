@@ -12,7 +12,7 @@ import discord
 import random
 TOKEN = "Insert your token here"
 
-# make my client eactly as discord client
+# make my client exactly as discord client
 class MyClient(discord.Client):
   pass
 
