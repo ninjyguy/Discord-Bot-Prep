@@ -1,27 +1,24 @@
 # Creating A Bot
-## Layout code
+## Import libraries we need and store token in a variable
 ```python
 import discord
 import random
 TOKEN = "Insert your token here"
 
-
-
-
-client = MyClient()
-client.run(TOKEN)
 ```
-## Create class
+## Create My client class and launch it
 ```python
 import discord
 import random
 TOKEN = "Insert your token here"
+
+# make my client eactly as discord client
 class MyClient(discord.Client):
+  pass
 
-
-
-
+# create one copy of it
 client = MyClient()
+# start that copy with a token and let it run for ever
 client.run(TOKEN)
 ```
 ## Make sure the bot doesn't reply to itself
