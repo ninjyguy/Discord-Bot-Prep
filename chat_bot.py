@@ -6,7 +6,7 @@ class MyClient(discord.Client):
   pass
 
 client = MyClient()
-#client.run(TOKEN)
+client.run(TOKEN)
 
 # 2) Read !hello command and only then reply with "Hello, @mention"
 # 3) Create game instructions response in a separate function
