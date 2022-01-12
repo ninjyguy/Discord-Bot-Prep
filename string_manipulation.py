@@ -9,7 +9,9 @@ fifth_one = "One"
 # compare third and fifth
 # lets clean up "   /chatbot do dishes   "
 # lower case a string
+all_uppers = "DO DISHES ALREADY!!!"
 # upper case a string
+all_lowers = "thank you for cleaning up"
 # split a string to get individual words in it
 # find if string starts with "/chatbot"
 very_important = "/chatbot This is very important to capture"
