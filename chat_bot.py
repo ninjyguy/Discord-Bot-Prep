@@ -5,9 +5,6 @@ TOKEN = "Insert your token here"
 class MyClient(discord.Client):
   pass
 
-client = MyClient()
-client.run(TOKEN)
-
 # 2) Read !hello command and only then reply with "Hello, @mention"
 # 3) Create game instructions response in a separate function
 # 4) Build "Rock Paper Scissors" game
@@ -19,3 +16,6 @@ client.run(TOKEN)
 # # # i)   if user rock then if PC paper I Win else You Win
 # # # ii)  if user papper then if PC scissors I Win else You
 # # # iii) if user scissors then if PC rock I Win else You
+
+client = MyClient()
+client.run(TOKEN)
