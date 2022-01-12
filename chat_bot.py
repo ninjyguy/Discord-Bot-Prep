@@ -14,8 +14,9 @@ class MyClient(discord.Client):
 # # d) Compare if user and PC move are equal. Return "Draw" if they are
 # # e) Else:
 # # # i)   if user rock then if PC paper I Win else You Win
-# # # ii)  if user papper then if PC scissors I Win else You
-# # # iii) if user scissors then if PC rock I Win else You
+# # # ii)  else if user papper then if PC scissors I Win else You
+# # # iii) else if user scissors then if PC rock I Win else You
+# # # iv)  else bad move try again message
 
 client = MyClient()
 client.run(TOKEN)
