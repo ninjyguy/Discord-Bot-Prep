@@ -7,6 +7,9 @@ TOKEN = "Insert your token here"
 
 ```
 ## Create My client class and launch it
+Importing discord gives access to prewritten code from discord which allows a bot communication with servers.
+Creating a your own class on top of discord.Client allows you to use communication with the server for your bot's purposes.
+The code you write creates instructions to make an object of a bot with your token.
 ```python
 import discord
 import random
