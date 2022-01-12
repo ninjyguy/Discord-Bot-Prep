@@ -51,7 +51,7 @@ class MyClient(discord.Client):
             return
         
         if message.content.startswith("!hello"):
-            message.channel.send(f"Hello, {message.author.name}")
+            await message.channel.send(f"Hello, {message.author.name}")
 
 
 
