@@ -345,11 +345,13 @@ class MyClient(discord.Client):
                         await message.channel.send("You win!")
                     else:
                         await message.channel.send("I win!")
-                else: #user_move == "scissors"
+                else user_move == "scissors":
                     if pc_move == "paper":
                         await message.channel.send("You win!")
                     else:
                         await message.channel.send("I win!")
+                else:
+                    await message.channel.send("Invalid move, try again!")
 
 
 
