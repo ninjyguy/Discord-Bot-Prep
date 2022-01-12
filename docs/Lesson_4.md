@@ -305,7 +305,7 @@ class MyClient(discord.Client):
 client = MyClient()
 client.run(TOKEN)
 ```
-### if user_move = scissors and if PC_move = paper: You Win else: I win
+### if user_move = scissors and if PC_move = paper: You Win else: I win. Else bad move
 ```python
 import discord
 import random
@@ -345,7 +345,7 @@ class MyClient(discord.Client):
                         await message.channel.send("You win!")
                     else:
                         await message.channel.send("I win!")
-                else user_move == "scissors":
+                elif user_move == "scissors":
                     if pc_move == "paper":
                         await message.channel.send("You win!")
                     else:
